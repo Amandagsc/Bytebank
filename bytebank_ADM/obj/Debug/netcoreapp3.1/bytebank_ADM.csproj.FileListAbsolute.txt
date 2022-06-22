@@ -1,0 +1,13 @@
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\bin\Debug\netcoreapp3.1\bytebank_ADM.exe
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\bin\Debug\netcoreapp3.1\bytebank_ADM.deps.json
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\bin\Debug\netcoreapp3.1\bytebank_ADM.runtimeconfig.json
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\bin\Debug\netcoreapp3.1\bytebank_ADM.runtimeconfig.dev.json
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\bin\Debug\netcoreapp3.1\bytebank_ADM.dll
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\bin\Debug\netcoreapp3.1\bytebank_ADM.pdb
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\obj\Debug\netcoreapp3.1\bytebank_ADM.csprojAssemblyReference.cache
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\obj\Debug\netcoreapp3.1\bytebank_ADM.AssemblyInfoInputs.cache
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\obj\Debug\netcoreapp3.1\bytebank_ADM.AssemblyInfo.cs
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\obj\Debug\netcoreapp3.1\bytebank_ADM.csproj.CoreCompileInputs.cache
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\obj\Debug\netcoreapp3.1\bytebank_ADM.dll
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\obj\Debug\netcoreapp3.1\bytebank_ADM.pdb
+C:\Users\amanda.silva\Amanda\Amanda Cursos\orientação objeto\ByteBank\bytebank_ADM\obj\Debug\netcoreapp3.1\bytebank_ADM.genruntimeconfig.cache
