@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace ByteBank
 {
     class Program
@@ -24,9 +23,8 @@ namespace ByteBank
 
             Console.WriteLine("### Informações da conta ###");
             conta01.Titular = amanda;
-            Console.WriteLine("saldo: " + conta01.Saldo);
-            Console.WriteLine("Agencia: " + conta01.Numero_Agencia);
-            
+            Console.WriteLine("Saldo: " + conta01.Saldo);
+            Console.WriteLine("Agência: " + conta01.Numero_Agencia);
         }
     }
 }

@@ -12,55 +12,45 @@ namespace bytebank_ADM
 
             GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-            Funcionario funcionario = new Funcionario();
-            funcionario.Nome = "Pedro";
-            funcionario.Cpf = "730.546.070-21";
-            funcionario.Salario = 3700;
-            Console.WriteLine("Nome: " + funcionario.Nome);
-            Console.WriteLine("CPF: " + funcionario.Cpf);
-            Console.WriteLine("Salário: R$" + funcionario.Salario);
+            Funcionario pedro = new Funcionario();
+            pedro.Nome = "Pedro";
+            pedro.Cpf = "730.546.070-21";
+            pedro.Salario = 3700;
+            Console.WriteLine("Nome: " + pedro.Nome);
 
-            Console.WriteLine("Bonificação: R$" + funcionario.GetBonificacao());
-            Console.WriteLine("Total salário com Bonificação: R$" + (funcionario.Salario + funcionario.GetBonificacao()));
-            gerenciador.Registrar(funcionario);
-            Console.WriteLine("******************************************\n");
 
-            Diretor diretor = new Diretor();
-            diretor.Nome = "Paulo";
-            diretor.Cpf = "730.546.070-22";
-            diretor.Salario = 9000;
-            Console.WriteLine("Nome: " + diretor.Nome);
-            Console.WriteLine("CPF: " + diretor.Cpf);
-            Console.WriteLine("Salário: R$" + diretor.Salario);
-
-            Console.WriteLine("Bonificação: R$" + diretor.GetBonificacao());
-            Console.WriteLine("Total salário com Bonificação: R$" + (diretor.Salario + diretor.GetBonificacao()));
+            Console.WriteLine("Bonificação: R$" + pedro.GetBonificacao());
 
             Console.WriteLine("******************************************\n");
 
-            Designer designer = new Designer();
-            designer.Nome = "Luiz";
-            designer.Cpf = "730.546.070-20";
-            designer.Salario = 4500;
-            Console.WriteLine("Nome: " + designer.Nome);
-            Console.WriteLine("CPF: " + designer.Cpf);
-            Console.WriteLine("Salário: R$" + designer.Salario);
-
-            Console.WriteLine("Bonificação: R$" + designer.GetBonificacao());
-            Console.WriteLine("Total salário com Bonificação: R$" + (designer.Salario + designer.GetBonificacao()));
+            Diretor paulo = new Diretor();
+            paulo.Nome = "Paulo";
+            paulo.Cpf = "730.546.070-22";
+            paulo.Salario = 9000;
+            Console.WriteLine("Nome: " + paulo.Nome);
+            Console.WriteLine("Bonificação: R$" + paulo.GetBonificacao());;
             Console.WriteLine("******************************************\n");
 
-            Analista analista = new Analista();
-            analista.Nome = "Amanda";
-            analista.Cpf = "730.546.070-21";
-            analista.Salario = 8200;
-            Console.WriteLine("Nome: " + analista.Nome);
-            Console.WriteLine("CPF: " + analista.Cpf);
-            Console.WriteLine("Salário: R$" + analista.Salario);
-
-            Console.WriteLine("Bonificação: R$" + analista.GetBonificacao());
-            Console.WriteLine("Total salário com Bonificação: R$" + (analista.Salario + analista.GetBonificacao()));
+            Designer luiz = new Designer();
+            luiz.Nome = "Luiz";
+            luiz.Cpf = "730.546.070-20";
+            luiz.Salario = 4500;
+            Console.WriteLine("Nome: " + luiz.Nome);
+            Console.WriteLine("Bonificação: R$" + luiz.GetBonificacao());
             Console.WriteLine("******************************************\n");
+
+            Analista amanda = new Analista();
+            amanda.Nome = "Amanda";
+            amanda.Cpf = "730.546.070-21";
+            amanda.Salario = 8200;
+            Console.WriteLine("Nome: " + amanda.Nome);
+            Console.WriteLine("Bonificação: R$" + amanda.GetBonificacao());
+            Console.WriteLine("******************************************\n");
+
+            //gerenciador.Registrar(funcionario);
+            gerenciador.Registrar(pedro, paulo, luiz,amanda);
+
+            Console.WriteLine("Total de Bonificação : " + gerenciador.Getbonificacao());
         }
     }
 }
